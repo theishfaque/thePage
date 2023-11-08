@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutella | Chocolate Page </title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body{
+            
+        }
+        .nav-bar{
+            background-color: rgb(209, 34, 34);
+            position: fixed;
+            width: 100vw;
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            
+        }
+        .logo{
+            width: 110px;
+            padding-left: 50px;
+        }
+        .ul-items{
+            list-style: none;
+            margin-right: 50px;
+        }
+        .li-items{
+            display: inline;
+            gap: 30%;
+
+        }
+        .Links{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+        .btn{
+            background-color: rgb(253, 246, 246);
+            color: rgb(209, 34, 34);
+            padding: 10px 5px 10px 5px;
+            cursor: pointer;
+            border:1px solid red;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+        .Links:hover{
+            
+        }
+        .Primary-btn{
+            background-color: rgb(209, 34, 34);
+            color: white;
+            padding: 10px 5px 10px 5px;
+            cursor: pointer;
+            border:1px solid red;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+        .sectionOne{
+            background-color: rgb(255, 230, 230);
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 100px 0px 100px 0px ;
+        }
+        .choco-jars{
+            width: 600px;
+            
+        }
+        .choco-jar2{
+            width: 300px;
+        }
+        .info{
+            font-weight: 400;
+            padding-left: 180px;
+            padding-right: 180px;
+            margin-top: 30px;
+        }
+        .shopping-btns{
+            margin-top: 20px;
+        }
+        .sectionTwo{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: rgb(252, 216, 216);
+            height: 60vh;
+        }
+        .firstImg{
+            width: 140px;
+            margin-top: 50px;
+        }
+        .firstImg~h3{
+            margin-top: 33px;
+            
+        }
+        .secondImg{
+            width: 177px;
+        }
+        .thirdImg{
+            width: 210px;
+        }
+        .priceTag{
+            color: rgb(209, 34, 34);
+            margin-left: 10px;
+        }
+        .headerdiv{
+            background-color: rgb(252, 216, 216);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            
+        }
+        .headerpara{
+            margin-left: 50px;
+            margin-right: 50px;
+            
+        }
+        .chocoworld{
+            width:  600px;
+            order: 2;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .headerBtn{
+            background-color: rgb(253, 246, 246);
+            color: rgb(209, 34, 34);
+            padding: 5px 10px 5px 10px;
+            cursor: pointer;
+            border:1px solid red;
+            font-weight: 500;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer{
+            background-color: rgb(209, 34, 34);
+            height: 30vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footerImg{
+            width: 300px;
+            margin-left: 50px;
+        }
+        .footer-links{
+            display: flex;
+            gap: 60px;
+            margin-right: 50px;
+            color: white;
+            font-weight: bold;
+           
+        }
+        .footer-li{
+            list-style: none;
+            margin-top: 5px;        
+        }
+        .footerA{
+            text-decoration: none ;
+            font-weight: 100;
+            color: white;
+        }
+        .contactUs{
+            width: 70px;
+            height: 70px;
+            border-radius: 60px;
+            position: fixed;
+            background-color: rgb(255, 81, 0);
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>    
+    <!-- **********************************Navbar******************************* -->
+    <nav class="nav-bar">
+        <a href="#"><img class="logo" src="./Nutella/logo.png" alt="nutella logo"></a>
+        <ul class="ul-items">
+            <li class="li-items"><a href="#" class="Links">Home</a></li>
+            <li class="li-items"><a href="#" class="Links">Products</a></li>
+            <li class="li-items"><a href="#" class="Links">Pricing</a></li>
+            <li class="li-items"><a href="#" class="Links">Contact Us</a></li>
+        </ul>  
+    </nav>
+
+        <!-- **********************************Navbar Ends******************************* -->
+        
+    <div class="headerdiv">
+        <div class="headerpara">
+            <p><em>Healthy & Tasty Cocolates</em></p>
+            <h3>Enjoy Healthy life & Tasty Flavours Of Nautella.</h3>
+            <p>Ferrero Nutella Jar is a creamy and delicious hazelnut spread made from the finest ingredients.
+                Perfect for spreading on toast, pancakes, waffles, or as an ingredient in baking recipes, 
+                this smooth and velvety spread has a unique and irresistible flavor.</p>
+            <button class="headerBtn">Read More</button>
+        </div>
+        <div>
+            <img class="chocoworld" src="./Nutella/choco world.png" alt="">
+        </div>
+            
+    </div>   
+
+    <!-- ********************************Section 1**************************** -->
+    <div class="sectionOne">
+        <div>
+            <img class="choco-jars" src="./Nutella/choco more jars.png" alt="choco jars">
+            <img class="choco-jar2" src="./Nutella/choco jar.png" alt="choco jars">
+        </div>
+        <div>
+            <h3 class="info"><b>Ferrero Nutella</b> Jar is a creamy and delicious hazelnut spread made from the finest ingredients.
+                 Perfect for spreading on toast, pancakes, waffles, or as an ingredient in baking recipes, 
+                 this smooth and velvety spread has a unique and irresistible flavor.
+                 Enjoy the taste of hazelnuts in every spoonful of this creamy and delicious spread.</h3>
+        </div>
+    </div>
+    <!-- ********************************Section 1 Ends**************************** -->
+
+
+
+    <!-- ********************************Section 2**************************** -->
+    <div class="sectionTwo">
+        <div>
+            <img class="firstImg" src="./Nutella/choco bread.png" alt="">
+            <h3 class="priceTag">Price $15</h3>
+            <div class="shopping-btns">
+                <button class="Primary-btn">Buy Now</button>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+        <div>
+            <img class="secondImg" src="./Nutella/choco meal.png" alt="">
+            <h3 class="priceTag">Price $35</h3>
+            <div class="shopping-btns">
+                <button class="Primary-btn">Buy Now</button>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+        <div>
+            <img class="thirdImg" src="./Nutella/choco waffle roll.png" alt="">
+            <h3 class="priceTag">Price $20</h3>
+            <div class="shopping-btns">
+                <button class="Primary-btn">Buy Now</button>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    <!-- ********************************Section 2 Ends**************************** -->
+
+
+    <!-- **********************************Footer****************************** -->
+    <footer>
+        <div>
+            <img class="footerImg" src="./Nutella/nutella favor.png" alt="">
+        </div>
+        <div class="footer-links">
+            <ul class="footer-ul">Services
+                <li class="footer-li"><a class="footerA" href="#">Email</a></li>
+                <li class="footer-li"><a class="footerA" href="#">Contact Us</a></li>
+                <li class="footer-li"><a class="footerA" href="#">Blog</a></li>
+            </ul>
+            <ul class="footer-ul">Our Products
+                <li class="footer-li"><a class="footerA" href="#">Choco Ice-cream</a></li>
+                <li class="footer-li"><a class="footerA" href="#">Roll Meal</a></li>
+                <li class="footer-li"><a class="footerA" href="#">Nutella Jar</a></li>
+            </ul>
+            <ul class="footer-ul">Social Media
+                <li class="footer-li"><a class="footerA" href="#">Facebook</a></li>
+                <li class="footer-li"><a class="footerA" href="#">Twitter</a></li>
+                <li class="footer-li"><a class="footerA" href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- **********************************Footer Ends****************************** -->
+
+</body>
+</html>
